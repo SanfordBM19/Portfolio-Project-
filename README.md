@@ -14,12 +14,11 @@ I'm still early in my data analytics career, so this portfolio is a collection o
 
 Throughout these projects, I've worked with:
 
-* **SQL** – Data cleaning, joins, aggregations, CTEs, window functions, and data analysis
+* **SQL** – Data cleaning, joins, aggregations, window functions, and data analysis
 * **Python** – Exploratory data analysis and correlation analysis
 * **Tableau** – Data visualization and dashboard creation
 * **Excel** – Working with and preparing datasets
 * **Jupyter Notebook** – Python-based analysis and documentation
-* **GitHub** – Organizing and sharing projects
 
 I'm continuing to improve these skills as I work on more projects and gain experience.
 
