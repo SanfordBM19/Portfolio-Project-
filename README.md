@@ -1,26 +1,23 @@
 # Data Analyst Portfolio
 
-## About This Portfolio
+## About
 
-Hi, and welcome to my data analytics portfolio!
+Hi, welcome to my data analytics portfolio projects!
 
-I created this repository to showcase the projects I've worked on while building my skills as an entry-level data analyst. These projects gave me hands-on experience working with data, cleaning datasets, writing SQL queries, exploring information with Python, and creating visualizations in Tableau.
+This repository contains projects I've worked on while building my data analytics knowledge and skills. I've worked with SQL, Python, Excel, Tableau, and Jupyter Notebook to clean, analyze, and visualize data.
 
-I'm still early in my data analytics career, so this portfolio is a collection of projects that show what I've been learning and how I'm applying those skills to real datasets.
+I will be continuing to build upon these skills through hands-on projects.
 
 ---
 
 ## Skills & Tools
 
-Throughout these projects, I've worked with:
-
-* **SQL** – Data cleaning, joins, aggregations, window functions, and data analysis
-* **Python** – Exploratory data analysis and correlation analysis
-* **Tableau** – Data visualization and dashboard creation
-* **Excel** – Working with and preparing datasets
-* **Jupyter Notebook** – Python-based analysis and documentation
-
-I'm continuing to improve these skills as I work on more projects and gain experience.
+* **SQL** – Data cleaning, joins, aggregations, and analysis
+* **Python** – Data cleaning, exploratory analysis, and correlation analysis
+* **Pandas** – Cleaning and working with datasets
+* **Excel** – Data preparation and analysis
+* **Tableau** – Dashboards and data visualization
+* **Jupyter Notebook** – Python-based data analysis
 
 ---
 
@@ -37,36 +34,19 @@ I'm continuing to improve these skills as I work on more projects and gain exper
 * `CovidVaccinations1.xlsx`
 * `Covid Dashboard.twb`
 
-### About the Project
+### About
 
-For this project, I worked with COVID-19 data to explore cases, deaths, population, and vaccinations across different countries and regions.
+I used COVID-19 data to explore cases, deaths, population, and vaccinations across different countries and regions.
 
-I used SQL to clean and analyze the data and then used the results to create a Tableau dashboard.
+I cleaned and analyzed the data with SQL and used Tableau to create a dashboard.
 
 ### What I Worked On
 
-Some of the questions I explored included:
-
-* What percentage of reported cases resulted in deaths?
-* How did the number of cases compare to a country's population?
-* Which countries had higher infection rates compared to their population?
-* How did total deaths compare between countries and continents?
-* How did vaccination numbers change over time?
-* What percentage of a population had received vaccinations?
-
-I also practiced using SQL techniques such as:
-
-* Joins
-* CTEs
-* Window functions
-* Temporary tables
-* Views
-* Aggregate functions
-* Calculated fields
-
-### What I Learned
-
-This project helped me become more comfortable working with multiple datasets and using SQL to turn raw data into information that could be visualized and understood more easily.
+* Analyzing cases and deaths
+* Comparing infection rates to population
+* Comparing deaths across countries and continents
+* Analyzing vaccination rates
+* Using joins, CTEs, window functions, temporary tables, and views
 
 ---
 
@@ -78,41 +58,20 @@ This project helped me become more comfortable working with multiple datasets an
 
 * `NashvilleHousingDateCleaned.sql`
 
-### About the Project
+### About
 
-This project focused mainly on **data cleaning**.
-
-I worked with a Nashville housing dataset that contained information that needed to be cleaned and standardized before it could be used effectively for analysis.
+This project focused on cleaning and preparing a Nashville housing dataset for analysis.
 
 ### What I Worked On
 
-I practiced:
-
-* Standardizing date formats
-* Filling in missing property address information
-* Splitting addresses into separate columns
-* Separating owner address information
-* Standardizing values such as `Y` and `N`
+* Standardizing dates
+* Handling missing addresses
+* Splitting address fields
+* Standardizing values
 * Finding duplicate records
-* Removing columns that were no longer needed
+* Removing unnecessary columns
 
-I used SQL functions and techniques including:
-
-* `UPDATE`
-* `JOIN`
-* `CASE`
-* `ISNULL`
-* `SUBSTRING`
-* `CHARINDEX`
-* `PARSENAME`
-* CTEs
-* `ROW_NUMBER()`
-
-### What I Learned
-
-This project showed me how important data cleaning is before starting an analysis.
-
-Even if the analysis itself is done correctly, inconsistent or duplicate data can affect the results. This project gave me more practice working with messy data and preparing it for future analysis.
+I also practiced using `UPDATE`, `JOIN`, `CASE`, `ISNULL`, CTEs, and `ROW_NUMBER()`.
 
 ---
 
@@ -124,81 +83,88 @@ Even if the analysis itself is done correctly, inconsistent or duplicate data ca
 
 * `Movie Correlation Project.ipynb`
 
-### About the Project
+### About
 
-In this project, I used Python to explore a movie dataset and look for relationships between different variables.
-
-The goal was to get more comfortable with exploratory data analysis and understanding how different variables in a dataset relate to each other.
+I used Python to explore a movie dataset and look at relationships between different variables.
 
 ### What I Worked On
 
-I practiced:
-
-* Exploring a dataset
-* Preparing data for analysis
-* Looking at relationships between variables
+* Exploring the dataset
+* Cleaning and preparing data
 * Performing correlation analysis
-* Identifying patterns in the data
-* Using Python to support my analysis
-
-### What I Learned
-
-This project gave me more experience using Python for data analysis and helped me understand how correlation can be used to explore relationships within a dataset.
-
-It also gave me practice moving beyond simply looking at individual numbers and instead asking what relationships might exist between different pieces of data.
+* Looking for patterns and relationships
+* Using Python for exploratory data analysis
 
 ---
 
-# My Approach to Data Analysis
+## 4. Data Cleaning with Pandas
 
-When working on these projects, I've been learning to follow a basic process:
+**Tools:** Python, Pandas, Jupyter Notebook
+
+**File:**
+
+* `Data Cleaning with Pandas.ipynb`
+
+### About
+
+This project focuses on cleaning a dataset using Python and Pandas.
+
+### What I Worked On
+
+* Finding missing values
+* Identifying duplicate records
+* Checking inconsistent data
+* Fixing data types
+* Cleaning and organizing columns
+* Preparing the dataset for analysis
+
+This project gave me more practice working with messy data and using Pandas to prepare it for analysis.
+
+---
+
+# My Approach
 
 **Collect → Clean → Explore → Analyze → Visualize → Communicate**
 
-I start by understanding the data and identifying any problems with it. From there, I clean and organize the data, look for patterns, perform the analysis, and use visualizations when they help communicate the results.
-
-I'm continuing to improve this process as I work on new projects.
+I start by understanding the data, checking for problems, cleaning it, and then analyzing it for patterns and useful information.
 
 ---
 
-# What I'm Currently Building Skills In
+# What I'm Building Skills In
 
-Through these projects, I'm developing experience with:
+* SQL
+* Python
+* Pandas
+* Excel
+* Tableau
+* Data Cleaning
+* Exploratory Data Analysis
+* Data Visualization
+* Working with real-world datasets
 
-* Writing SQL queries
-* Cleaning and organizing data
-* Working with multiple datasets
-* Creating calculated metrics
-* Finding trends and patterns
-* Exploratory data analysis
-* Python for data analysis
-* Tableau dashboards
-* Data visualization
-* Communicating findings
-
-My goal is to continue building these skills through additional projects and eventually apply them to real-world business problems.
+I'm continuing to add projects as I learn and improve my skills.
 
 ---
 
 # Repository Structure
 
 ```text
-Portfolio-Project-/
+Data-Portfolio-Project/
 │
 ├── COVID Portfolio Project.sql
 ├── Covid Dashboard.twb
 ├── CovidDeaths.xlsx
 ├── CovidVaccinations1.xlsx
 ├── Movie Correlation Project.ipynb
-└── NashvilleHousingDateCleaned.sql
+├── NashvilleHousingDateCleaned.sql
+└── Data Cleaning with Pandas.ipynb
 ```
 
 ---
 
 ## Thanks for Visiting
 
-Thanks for taking the time to look through my portfolio!
+Thanks for checking out my portfolio!
 
-I'm currently building my experience in data analytics and using projects like these to strengthen my skills. I'm always looking for opportunities to learn, improve, and work with real-world data.
+I'm continuing to build projects and improve my data analytics skills through hands-on practice.
 
-I'm excited to continue growing as a data analyst and adding more projects to this portfolio.
