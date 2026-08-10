@@ -4,7 +4,7 @@
 
 Hi, welcome to my data analytics portfolio projects!
 
-This repository contains projects I've worked on while building my data analytics knowledge and skills. I've worked with SQL, Python, Excel, Tableau, and Jupyter Notebook to clean, analyze, and visualize data.
+This repository contains projects I've worked on while building my data analytics knowledge and skills. I've worked with SQL, Python (Pandas), Excel, Tableau, and Jupyter Notebook to clean, analyze, and visualize data.
 
 I will be continuing to build upon these skills through hands-on projects.
 
@@ -162,9 +162,5 @@ Data-Portfolio-Project/
 
 ---
 
-## Thanks for Visiting
-
-Thanks for checking out my portfolio!
-
-I'm continuing to build projects and improve my data analytics skills through hands-on practice.
+## Thanks for Visitin
 
